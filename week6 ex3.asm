@@ -1,0 +1,12 @@
+org 100h
+mov ah,2
+mov dl,"H"
+int 21h
+mov ah,2
+mov dl,"H"
+int 21h
+mov ah,2
+mov dl,"i"
+int 21h
+mov ah,4ch
+int 21h
